@@ -1,0 +1,45 @@
+.header { 
+text-align: center; 
+background-color: green;
+} 
+ 
+.content {  
+font-family:Verdana, Arial, Helvetica, sans-serif;  
+font-size:0.75em;  
+} 
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: green;
+}
+
+.active {
+  background-color: grey;
+}
+ 
+.footer { 
+height: 33%; 
+font-family:Verdana, Arial, Helvetica, sans-serif;  
+font-size:0.75em; 
+color: black;
+background-color: green;
+} 
